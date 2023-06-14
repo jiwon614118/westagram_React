@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.body {
+    background-color: rgb(242, 242, 242);
+}
+
+.banner-border-container {
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    position: static;
+}
+
+.banner {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+}
+
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 3px;
+    left: 50px;
+}
+
+.search-bar {
+    background-image: url(images/reding\ glasses.png);
+    background-repeat: no-repeat;
+    background-position: left 70px center;
+    position: relative;
+    left: 215%;
+    bottom: 4px;
+    width: 215px;
+    height: 25px;
+    text-indent: 100px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.nav-container nav img {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+.main {
+    background-color: rgb(242, 242, 242);
+}
+
+.main-feed-border {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    width: 600px;
+    height: 650px;
+    top: 50px;
+    left: 150px;
+}
+/*
+.main-feed {
+
+}
+*/
+
+.my-profile-picture {
+    margin-top: 15px;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.my-name {
+    position: relative;
+    left: 10px;
+    bottom: 23px;
+    font-weight: bold;
+}
+
+.my-feed-picture {
+    position: relative;
+    top: 0;
+    width: 600px;
+    height: 400px;
+}
+
+.feed-icon {
+    position: relative;
+    left: 1px;
+    padding: 10px;
+}
+
+.save {
+    margin-left: 495px;
+}
+
+.liker-profile {
+    position: relative;
+    left: 10px;
+    top: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.liker-name,
+.liker-number {
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+
+.time {
+    position: relative;
+    left: 10px;
+    color: gray;
+}
+
+.feed-info,
+.user-name {
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+}
+.text {
+    position: relative;
+    left: 10px;
+}
+
+.more {
+    position: relative;
+    left: 10px;
+    color: gray;
+}
+
+.comment-container {
+    border-top: 1px solid lightgray;
+}
+
+.comment-area {
+    position: relative;
+    left: 10px;
+    border: none;
+    width: 500px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.comment-add {
+    position: relative;
+    left: 20px;
+    border-style: none;
+    background: none;
+    color: rgba(6, 154, 253);
+}
+
+
+.comment-add:hover {
+    color: blue;
+    cursor: pointer ;
+  }
+
+.main-right-container {
+    position: relative;
+    top: -580px;
+    left: 700px;
+}
+
+.main-right-story-border {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 340px;
+}
+
+.story {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: gray;
+}
+
+.view-all {
+    position: relative;
+    top: 20px;
+    left: 175px;
+    font-weight: bold;
+}
+
+.story-img1,
+.story-img2,
+.story-img3,
+.story-img4 {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border: 3px solid rgba(252, 61, 61);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.story-img1 {
+    margin-top: 40px;
+}
+
+.story-list1 {
+    position: relative;
+    top: -270px;
+    left: 70px;
+    font-weight: bolder;
+}
+
+.story-list2 {
+    position: relative;
+    top: -230px;
+    left: 70px;
+    font-weight: bolder;
+}
+
+.story-list3 {
+    position: relative;
+    top: -190px;
+    left: 70px;
+    font-weight: bolder;
+}
+
+.story-list4 {
+    position: relative;
+    top: -155px;
+    left: 70px;
+    font-weight: bolder;
+}
+
+.story-time1 {
+    position: relative;
+    top: -265px;
+    left: 70px;
+    color: gray;
+}
+
+.story-time2 {
+    position: relative;
+    top: -225px;
+    left: 70px;
+    color: gray;
+}
+
+.story-time3 {
+    position: relative;
+    top: -185px;
+    left: 70px;
+    color: gray;
+}
+
+.story-time4 {
+    position: relative;
+    top: -150px;
+    left: 70px;
+    color: gray;
+}
+
+
+
+.main-right-add-friend-border {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 190px;
+    position: relative;
+    top: 50px;
+    left: 0;
+}
+
+.story-img5,
+.story-img6,
+.story-img7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-friend-text {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: gray;
+}
+
+.view-all2 {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    font-weight: bold;
+}
+
+.story-img5 {
+    margin-top: 43px;
+}
+
+.add-friend-list1 {
+    position: relative;
+    top: -107px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.add-friend-list2 {
+    position: relative;
+    top: -103px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.add-friend-list3 {
+    position: relative;
+    top: -99px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.follow1 {
+    position: relative;
+    top: -127px;
+    left: 225px;
+}
+
+.follow2 {
+    position: relative;
+    top: -121px;
+    left: 225px;
+}
+
+.follow3 {
+    position: relative;
+    top: -117px;
+    left: 225px;
+}
+
+.follow1,
+.follow2,
+.follow3 {
+    border-style: none;
+    background: none;
+    color: rgba(6, 154, 253);
+}
